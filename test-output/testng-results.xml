@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29981" started-at="2019-04-15T09:30:17Z" finished-at="2019-04-15T09:30:47Z">
+    <groups>
+      <group name="TPGPostOfficegrp">
+        <method signature="TPGTestIT.loginToPostOffice(java.lang.String, java.lang.String)[pri:0, instance:com.TPG.test.TPGTestIT@467aecef]" name="loginToPostOffice" class="com.TPG.test.TPGTestIT"/>
+      </group> <!-- TPGPostOfficegrp -->
+      <group name="TPGMyAccountgrp">
+        <method signature="TPGTestIT.loginToMyAccount(java.lang.String, java.lang.String)[pri:0, instance:com.TPG.test.TPGTestIT@467aecef]" name="loginToMyAccount" class="com.TPG.test.TPGTestIT"/>
+      </group> <!-- TPGMyAccountgrp -->
+    </groups>
+    <test name="Default test" duration-ms="29981" started-at="2019-04-15T09:30:17Z" finished-at="2019-04-15T09:30:47Z">
+      <class name="com.TPG.test.TPGTestIT">
+        <test-method status="PASS" signature="ConfigFileRead()[pri:0, instance:com.TPG.test.TPGTestIT@467aecef]" name="ConfigFileRead" is-config="true" duration-ms="7400" started-at="2019-04-15T19:30:17Z" finished-at="2019-04-15T19:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigFileRead -->
+        <test-method status="PASS" signature="loginToMyAccount(java.lang.String, java.lang.String)[pri:0, instance:com.TPG.test.TPGTestIT@467aecef]" name="loginToMyAccount" duration-ms="6321" started-at="2019-04-15T19:30:24Z" data-provider="logindata" finished-at="2019-04-15T19:30:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajesh1978]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd1978]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMyAccount -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TPG.test.TPGTestIT@467aecef]" name="tearDown" is-config="true" duration-ms="650" started-at="2019-04-15T19:30:31Z" finished-at="2019-04-15T19:30:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToMyAccount status=SUCCESS method=TPGTestIT.loginToMyAccount(java.lang.String, java.lang.String)[pri:0, instance:com.TPG.test.TPGTestIT@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ConfigFileRead()[pri:0, instance:com.TPG.test.TPGTestIT@467aecef]" name="ConfigFileRead" is-config="true" duration-ms="6867" started-at="2019-04-15T19:30:31Z" finished-at="2019-04-15T19:30:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigFileRead -->
+        <test-method status="PASS" signature="loginToPostOffice(java.lang.String, java.lang.String)[pri:0, instance:com.TPG.test.TPGTestIT@467aecef]" name="loginToPostOffice" duration-ms="5969" started-at="2019-04-15T19:30:38Z" data-provider="logindata" finished-at="2019-04-15T19:30:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajesh1978]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd1978]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToPostOffice -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TPG.test.TPGTestIT@467aecef]" name="tearDown" is-config="true" duration-ms="2372" started-at="2019-04-15T19:30:44Z" finished-at="2019-04-15T19:30:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToPostOffice status=SUCCESS method=TPGTestIT.loginToPostOffice(java.lang.String, java.lang.String)[pri:0, instance:com.TPG.test.TPGTestIT@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TPG.test.TPGTestIT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

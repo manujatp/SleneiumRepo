@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 1.747 s <<< FAILURE! - in TestSuite
+loginToMyAccount(com.TPG.test.TPGTestIT)  Time elapsed: 0.041 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.TPG.test.TPGTestIT.loginToMyAccount(TPGTestIT.java:19)
+
+tearDown(com.TPG.test.TPGTestIT)  Time elapsed: 0.042 s  <<< FAILURE!
+java.lang.NullPointerException
+

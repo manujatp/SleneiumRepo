@@ -1,0 +1,10 @@
+com\TPG\framework\pageobjects\PostOfficeLoginPage.class
+com\TPG\framework\elementhelpers\ClickNSetHelpers.class
+com\TPG\framework\pageobjects\TPGHomePage.class
+com\TPG\framework\pageobjects\PostOfficeHomePage.class
+com\TPG\framework\reports\ExtentManager.class
+com\TPG\framework\base\TPGPage.class
+com\TPG\framework\pageobjects\MyAccountHomePage.class
+com\TPG\framework\pageobjects\MyAccountLoginPage.class
+com\TPG\framework\base\TestBase.class
+com\TPG\test\TPGTestIT.class
